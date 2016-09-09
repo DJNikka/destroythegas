@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63814BDF1D8244C000CBBBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63814BDE1D8244C000CBBBAE /* AppDelegate.swift */; };
+		63814BE11D8244C000CBBBAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63814BE01D8244C000CBBBAE /* ViewController.swift */; };
+		63814BE41D8244C000CBBBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63814BE21D8244C000CBBBAE /* Main.storyboard */; };
+		63814BE61D8244C100CBBBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63814BE51D8244C100CBBBAE /* Assets.xcassets */; };
+		63814BE91D8244C100CBBBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63814BE71D8244C100CBBBAE /* LaunchScreen.storyboard */; };
+		63814BF41D8244C100CBBBAE /* DestroyTheGasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63814BF31D8244C100CBBBAE /* DestroyTheGasTests.swift */; };
+		63814BFF1D8244C100CBBBAE /* DestroyTheGasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63814BFE1D8244C100CBBBAE /* DestroyTheGasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63814BF01D8244C100CBBBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63814BD31D8244C000CBBBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63814BDA1D8244C000CBBBAE;
+			remoteInfo = DestroyTheGas;
+		};
+		63814BFB1D8244C100CBBBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63814BD31D8244C000CBBBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63814BDA1D8244C000CBBBAE;
+			remoteInfo = DestroyTheGas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63814BDB1D8244C000CBBBAE /* DestroyTheGas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestroyTheGas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63814BDE1D8244C000CBBBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63814BE01D8244C000CBBBAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63814BE31D8244C000CBBBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63814BE51D8244C100CBBBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63814BE81D8244C100CBBBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63814BEA1D8244C100CBBBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63814BEF1D8244C100CBBBAE /* DestroyTheGasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestroyTheGasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63814BF31D8244C100CBBBAE /* DestroyTheGasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestroyTheGasTests.swift; sourceTree = "<group>"; };
+		63814BF51D8244C100CBBBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63814BFA1D8244C100CBBBAE /* DestroyTheGasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestroyTheGasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63814BFE1D8244C100CBBBAE /* DestroyTheGasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestroyTheGasUITests.swift; sourceTree = "<group>"; };
+		63814C001D8244C100CBBBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63814BD81D8244C000CBBBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BEC1D8244C100CBBBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BF71D8244C100CBBBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63814BD21D8244C000CBBBAE = {
+			isa = PBXGroup;
+			children = (
+				63814BDD1D8244C000CBBBAE /* DestroyTheGas */,
+				63814BF21D8244C100CBBBAE /* DestroyTheGasTests */,
+				63814BFD1D8244C100CBBBAE /* DestroyTheGasUITests */,
+				63814BDC1D8244C000CBBBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63814BDC1D8244C000CBBBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63814BDB1D8244C000CBBBAE /* DestroyTheGas.app */,
+				63814BEF1D8244C100CBBBAE /* DestroyTheGasTests.xctest */,
+				63814BFA1D8244C100CBBBAE /* DestroyTheGasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63814BDD1D8244C000CBBBAE /* DestroyTheGas */ = {
+			isa = PBXGroup;
+			children = (
+				63814BDE1D8244C000CBBBAE /* AppDelegate.swift */,
+				63814BE01D8244C000CBBBAE /* ViewController.swift */,
+				63814BE21D8244C000CBBBAE /* Main.storyboard */,
+				63814BE51D8244C100CBBBAE /* Assets.xcassets */,
+				63814BE71D8244C100CBBBAE /* LaunchScreen.storyboard */,
+				63814BEA1D8244C100CBBBAE /* Info.plist */,
+			);
+			path = DestroyTheGas;
+			sourceTree = "<group>";
+		};
+		63814BF21D8244C100CBBBAE /* DestroyTheGasTests */ = {
+			isa = PBXGroup;
+			children = (
+				63814BF31D8244C100CBBBAE /* DestroyTheGasTests.swift */,
+				63814BF51D8244C100CBBBAE /* Info.plist */,
+			);
+			path = DestroyTheGasTests;
+			sourceTree = "<group>";
+		};
+		63814BFD1D8244C100CBBBAE /* DestroyTheGasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63814BFE1D8244C100CBBBAE /* DestroyTheGasUITests.swift */,
+				63814C001D8244C100CBBBAE /* Info.plist */,
+			);
+			path = DestroyTheGasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63814BDA1D8244C000CBBBAE /* DestroyTheGas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63814C031D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGas" */;
+			buildPhases = (
+				63814BD71D8244C000CBBBAE /* Sources */,
+				63814BD81D8244C000CBBBAE /* Frameworks */,
+				63814BD91D8244C000CBBBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DestroyTheGas;
+			productName = DestroyTheGas;
+			productReference = 63814BDB1D8244C000CBBBAE /* DestroyTheGas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63814BEE1D8244C100CBBBAE /* DestroyTheGasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63814C061D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGasTests" */;
+			buildPhases = (
+				63814BEB1D8244C100CBBBAE /* Sources */,
+				63814BEC1D8244C100CBBBAE /* Frameworks */,
+				63814BED1D8244C100CBBBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63814BF11D8244C100CBBBAE /* PBXTargetDependency */,
+			);
+			name = DestroyTheGasTests;
+			productName = DestroyTheGasTests;
+			productReference = 63814BEF1D8244C100CBBBAE /* DestroyTheGasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63814BF91D8244C100CBBBAE /* DestroyTheGasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63814C091D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGasUITests" */;
+			buildPhases = (
+				63814BF61D8244C100CBBBAE /* Sources */,
+				63814BF71D8244C100CBBBAE /* Frameworks */,
+				63814BF81D8244C100CBBBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63814BFC1D8244C100CBBBAE /* PBXTargetDependency */,
+			);
+			name = DestroyTheGasUITests;
+			productName = DestroyTheGasUITests;
+			productReference = 63814BFA1D8244C100CBBBAE /* DestroyTheGasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63814BD31D8244C000CBBBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Konstantine Piterman";
+				TargetAttributes = {
+					63814BDA1D8244C000CBBBAE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					63814BEE1D8244C100CBBBAE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63814BDA1D8244C000CBBBAE;
+					};
+					63814BF91D8244C100CBBBAE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63814BDA1D8244C000CBBBAE;
+					};
+				};
+			};
+			buildConfigurationList = 63814BD61D8244C000CBBBAE /* Build configuration list for PBXProject "DestroyTheGas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63814BD21D8244C000CBBBAE;
+			productRefGroup = 63814BDC1D8244C000CBBBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63814BDA1D8244C000CBBBAE /* DestroyTheGas */,
+				63814BEE1D8244C100CBBBAE /* DestroyTheGasTests */,
+				63814BF91D8244C100CBBBAE /* DestroyTheGasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63814BD91D8244C000CBBBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63814BE91D8244C100CBBBAE /* LaunchScreen.storyboard in Resources */,
+				63814BE61D8244C100CBBBAE /* Assets.xcassets in Resources */,
+				63814BE41D8244C000CBBBAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BED1D8244C100CBBBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BF81D8244C100CBBBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63814BD71D8244C000CBBBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63814BE11D8244C000CBBBAE /* ViewController.swift in Sources */,
+				63814BDF1D8244C000CBBBAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BEB1D8244C100CBBBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63814BF41D8244C100CBBBAE /* DestroyTheGasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63814BF61D8244C100CBBBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63814BFF1D8244C100CBBBAE /* DestroyTheGasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63814BF11D8244C100CBBBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63814BDA1D8244C000CBBBAE /* DestroyTheGas */;
+			targetProxy = 63814BF01D8244C100CBBBAE /* PBXContainerItemProxy */;
+		};
+		63814BFC1D8244C100CBBBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63814BDA1D8244C000CBBBAE /* DestroyTheGas */;
+			targetProxy = 63814BFB1D8244C100CBBBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63814BE21D8244C000CBBBAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63814BE31D8244C000CBBBAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63814BE71D8244C100CBBBAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63814BE81D8244C100CBBBAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63814C011D8244C100CBBBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63814C021D8244C100CBBBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63814C041D8244C100CBBBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DestroyTheGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63814C051D8244C100CBBBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DestroyTheGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		63814C071D8244C100CBBBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DestroyTheGasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DestroyTheGas.app/DestroyTheGas";
+			};
+			name = Debug;
+		};
+		63814C081D8244C100CBBBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DestroyTheGasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DestroyTheGas.app/DestroyTheGas";
+			};
+			name = Release;
+		};
+		63814C0A1D8244C100CBBBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DestroyTheGasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DestroyTheGas;
+			};
+			name = Debug;
+		};
+		63814C0B1D8244C100CBBBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DestroyTheGasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Everipedia.DestroyTheGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DestroyTheGas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63814BD61D8244C000CBBBAE /* Build configuration list for PBXProject "DestroyTheGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63814C011D8244C100CBBBAE /* Debug */,
+				63814C021D8244C100CBBBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63814C031D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63814C041D8244C100CBBBAE /* Debug */,
+				63814C051D8244C100CBBBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63814C061D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63814C071D8244C100CBBBAE /* Debug */,
+				63814C081D8244C100CBBBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63814C091D8244C100CBBBAE /* Build configuration list for PBXNativeTarget "DestroyTheGasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63814C0A1D8244C100CBBBAE /* Debug */,
+				63814C0B1D8244C100CBBBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63814BD31D8244C000CBBBAE /* Project object */;
+}
